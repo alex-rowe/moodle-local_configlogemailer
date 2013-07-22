@@ -32,7 +32,7 @@ function local_configlogemailer_cron() {
     $from->lastname = get_config('local_configlogemailer','from_lastname');
     
     $subject = get_string('subject', 'local_configlogemailer');
-    $messagetext = get_string('messagetext', 'local_configlogemailer',$CFG->wwwroot)
+    $messagetext = get_string('messagetext', 'local_configlogemailer',$CFG->wwwroot);
     
     $sql = "SELECT u.firstname, u.lastname, cl.timemodified, cl.plugin, cl.name, cl.value, cl.oldvalue
             FROM {config_log} cl
