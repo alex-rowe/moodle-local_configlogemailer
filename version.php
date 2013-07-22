@@ -15,3 +15,4 @@
  
 $plugin->version  = 2013072202;   // The (date) version of this plugin
 $plugin->requires = 2012120300;   // Requires this Moodle version
+$plugin->release = '1.0 (Build: 2013072200)';
