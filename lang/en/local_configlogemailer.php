@@ -21,13 +21,13 @@ $string['messagetext'] = 'Changes made on: {$a}
 ';
 $string['to_email_title'] = 'Send to email';
 $string['to_email_description'] = 'Who do you want to send the email to';
-$string['to_email_default'] = '{$a}';
+$string['to_email_default'] = '';
 $string['from_email_title'] = 'Send from email';
 $string['from_email_description'] = 'Who do you want to send the email from';
 $string['from_email_default'] = '{$a}';
-$string['from_firstname_title'] = 'Send from firstname';
+$string['from_firstname_title'] = 'Send from firs tname';
 $string['from_firstname_description'] = 'What is the first name of the sender';
 $string['from_firstname_default'] = '{$a}';
-$string['from_lastname_title'] = 'Send from lastname';
+$string['from_lastname_title'] = 'Send from last name';
 $string['from_lastname_description'] = 'What is the last name of the sender';
 $string['from_lastname_default'] = '{$a}';
